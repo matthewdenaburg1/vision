@@ -1,0 +1,31 @@
+$red: #f00;
+$dark-grey: #333;
+$white: #fff;
+$black: #000;
+$green: #0c0;
+
+body {
+  background-color: $dark-grey;
+  font-family: sans-serif;
+
+  color: $white;
+}
+
+#header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  border: 1px solid $red;
+}
+
+.content {
+  display: block;
+
+  & > .controls,
+  & > .view {
+    width: 100%;
+    padding: 5px;
+
+    border: 1px solid $green;
+  }
+}

@@ -15,6 +15,32 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "preview": "vite build && vite preview"
+  },
+  "engines": {
+    "node": "v25.6.1",
+    "npm": "11.9.0"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 100,
+    "singleAttributePerLine": true
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "@types/node-sass": "^4.11.8",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "sass-embedded": "^1.85.1",
+    "typescript": "^5.8.2",
+    "vite": "^5.4.14",
+    "vite-plugin-sass": "^0.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.3",
+    "react-dom": "^19.2.4"
   }
 }
